@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import styles from "./SplitScreen.module.scss";
 import Controller from "../Controller";
 import { CircularProgress, Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
@@ -16,6 +15,9 @@ const useStyles = makeStyles((theme) => ({
   },
   progress: {
     margin: "auto",
+  },
+  image: {
+    width: "100%",
   },
 }));
 
@@ -36,16 +38,16 @@ const SplitScreen: FC<{ prefix: string }> = ({ prefix }) => {
         <>
           <Grid item xs={6}>
             <img
-              className={styles.image}
+              className={classes.image}
               src={images && images.original}
               alt="Original Image"
             />
           </Grid>
           <Grid item xs={6}>
             <img
+              className={classes.image}
               src={images && images.modified}
               alt="Modified Image"
-              className={styles.image}
             />
           </Grid>
         </>

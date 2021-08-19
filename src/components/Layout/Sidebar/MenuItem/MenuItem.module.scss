@@ -2,25 +2,12 @@
   margin-bottom: 3rem;
   display: flex;
   align-items: center;
-  height: 32.04px;
-  width: 154.27px;
-  width: 100%;
+  // width: 100%;
 }
 .icon {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   margin-right: 2rem;
-}
-.label {
-  height: 20.17px;
-  width: 90.19px;
-  display: flex;
-  font-family: "Helvetica Neue";
-  font-size: 17px;
-  font-weight: 500;
-  line-height: normal;
-  color: "#6F6C99";
-  margin-right: 3rem;
 }
 
 .active {
@@ -32,7 +19,7 @@
   width: 7.12px;
   height: 7.12px;
   position: absolute;
-  right: 3rem;
+  right: 2rem;
   background: linear-gradient(
     180deg,
     rgba(255, 64, 165, 1) 0%,

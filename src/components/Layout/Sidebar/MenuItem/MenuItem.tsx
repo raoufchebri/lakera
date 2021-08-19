@@ -13,7 +13,6 @@ const MenuItem: FC<MenuItemProps> = ({ label, icon, active, notify }) => {
   return (
     <div className={styles.menuItem}>
       <img alt="" className={styles.icon} src={icon} />
-      <p className={className}>{label}</p>
       {notify && <div className={styles.notifeMark} />}
     </div>
   );

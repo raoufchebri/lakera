@@ -1,17 +1,13 @@
 .header {
   display: flex;
   align-items: flex-start;
-  position: absolute;
+  position: relative;
+  margin-bottom: 4rem;
 }
 .title {
-  width: calc(33.99% - 232.6px);
-  margin-right: 505.31px;
-  padding: 0 232.6px 24.92px 0;
-  align-self: stretch;
-  position: relative;
+  margin-right: 70%;
 }
 .pageTitile {
-  height: 43.91px;
   width: 100%;
   font-family: "Helvetica Neue";
   font-size: 36px;
@@ -22,47 +18,16 @@
   opacity: 0.9;
 }
 .pageDescription {
-  height: 18.99px;
-  width: 99.43%;
   font-family: "Helvetica Neue";
   font-size: 15px;
   font-weight: 400;
   line-height: normal;
   color: "#6F6C99";
-  display: flex;
   opacity: 0.7;
-  position: absolute;
-  right: 0;
-  top: calc(50% - 18.99px / 2);
-}
-.magnifierIcn {
-  margin-top: 1.19px;
-  margin-right: 29.67px;
-  padding: 5.93px 7.18px 6px 5.93px;
-  display: flex;
-  align-items: center;
-}
-.magnifier {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.oval9 {
-  width: 78.34%;
-  height: 74.62%;
-  margin-bottom: -3.38px;
-  border-radius: 50%;
-  border: 2px solid "#6F6C99";
-}
-.path6 {
-  width: 24.03%;
-  height: 22.89%;
-  margin-left: 17.99px;
 }
 .menuIcn {
-  margin-top: 1.19px;
+  margin-top: 0.5rem;
   margin-right: 39.39px;
-  padding: 7.12px 5.94px 5.94px 7.12px;
   display: flex;
   align-items: center;
 }
@@ -71,12 +36,14 @@
   height: 23.73px;
 }
 .userInfo {
-  margin-top: 2.37px;
   display: flex;
   align-items: flex-start;
+  position: relative;
+  right: 0rem;
 }
 .face {
-  width: 20.08%;
+  width: 2rem;
+  height: 2rem;
   align-self: stretch;
   margin-right: 11.86px;
   border-radius: 4px;
@@ -89,7 +56,6 @@
   align-items: flex-start;
 }
 .userName {
-  width: 87.27%;
   font-family: "Helvetica Neue";
   font-size: 15px;
   font-weight: 500;
@@ -98,10 +64,13 @@
   align-self: stretch;
   display: flex;
   text-align: right;
-  margin-right: 11.33px;
 }
 .downArrow {
   width: 3.04%;
   height: 36.86%;
   margin-top: 8.84px;
+}
+
+p {
+  margin: 0;
 }

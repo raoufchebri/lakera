@@ -1,14 +1,17 @@
 import React from "react";
-import styles from "./Metric.module.scss";
+import { useStyles } from "./Metric.styled";
 
 const Metric = ({ value = 100, title = "ORGINAL", secondary = false }) => {
+  const classes = useStyles();
   const width = `${0.08 * value}rem`;
-  const barStyle = secondary ? `${styles.bar} ${styles.secondary}` : styles.bar;
+  const barStyle = secondary
+    ? `${classes.bar} ${classes.secondary}`
+    : classes.bar;
   return (
-    <div className={styles.metric}>
-      <p className={styles.title}>{title}</p>
+    <div className={classes.metric}>
+      <p className={classes.title}>{title}</p>
       <span className={barStyle} style={{ width }} />
-      <p className={styles.value}>{value}</p>
+      <p className={classes.value}>{value}</p>
     </div>
   );
 };

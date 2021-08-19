@@ -2,9 +2,7 @@ import { Grid } from "@material-ui/core";
 import React, { FC, useState } from "react";
 import SplitScreen from "../SplitScreen";
 import Item from "../Item";
-import { useStyles } from "./SideBySide.styled";
 import { getData } from "../../apis/Data.service";
-import { getImage } from "../../apis/Images.service";
 
 const SideBySide: FC<{}> = () => {
   const data = getData();
@@ -12,9 +10,8 @@ const SideBySide: FC<{}> = () => {
     data.sequences[0].sequence.prefix
   );
 
-  const classes = useStyles();
   return (
-    <Grid container spacing={1}>
+    <Grid container spacing={3}>
       <Grid item md={8} sm={12}>
         <SplitScreen prefix={selectedItem} />
       </Grid>

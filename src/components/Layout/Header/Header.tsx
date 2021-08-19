@@ -8,16 +8,6 @@ const Header = () => {
         <p className={styles.pageTitile}>Tests</p>
         <p className={styles.pageDescription}>Run and analyze your tests</p>
       </div>
-      <div className={styles.magnifierIcn}>
-        <div className={styles.magnifier}>
-          <div className={styles.oval9} />
-          <img
-            alt=""
-            className={styles.path6}
-            src="https://static.overlay-tech.com/assets/a725f3e0-04fb-44a2-97f5-63a3cc64f67b.svg"
-          />
-        </div>
-      </div>
       <div className={styles.menuIcn}>
         <img
           alt=""
@@ -33,11 +23,6 @@ const Header = () => {
         />
         <div className={styles.name}>
           <p className={styles.userName}>Pixelz Warrios</p>
-          <img
-            alt=""
-            className={styles.downArrow}
-            src="https://static.overlay-tech.com/assets/03267f38-5d9f-4782-8cbb-b139f9b31b97.svg"
-          />
         </div>
       </div>
     </div>
