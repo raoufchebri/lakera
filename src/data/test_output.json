@@ -1,0 +1,46 @@
+{
+  "test_results": {
+    "num_sequences": 500,
+    "metric_original": 0.95,
+    "metric_modified": 0.71,
+    "description": "This test passes if performance drops by less than 0.05.",
+    "test_passes": false
+  },
+  "sequences": [
+    {
+      "sequence": {
+        "prefix": "Brightness",
+        "metric_original": 0.85,
+        "metric_modified": 0.83
+      }
+    },
+    {
+      "sequence": {
+        "prefix": "Contrast",
+        "metric_original": 0.91,
+        "metric_modified": 0.76
+      }
+    },
+    {
+      "sequence": {
+        "prefix": "MotionBlur",
+        "metric_original": 0.89,
+        "metric_modified": 0.56
+      }
+    },
+    {
+      "sequence": {
+        "prefix": "Glare",
+        "metric_original": 0.9,
+        "metric_modified": 0.65
+      }
+    },
+    {
+      "sequence": {
+        "prefix": "Rain",
+        "metric_original": 0.8,
+        "metric_modified": 0.71
+      }
+    }
+  ]
+}

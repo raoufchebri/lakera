@@ -1,0 +1,44 @@
+.menuItem {
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  height: 32.04px;
+  width: 154.27px;
+  width: 100%;
+}
+.icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 2rem;
+}
+.label {
+  height: 20.17px;
+  width: 90.19px;
+  display: flex;
+  font-family: "Helvetica Neue";
+  font-size: 17px;
+  font-weight: 500;
+  line-height: normal;
+  color: "#6F6C99";
+  margin-right: 3rem;
+}
+
+.active {
+  color: rgba(83, 185, 234, 1);
+  letter-spacing: 0.59px;
+}
+
+.notifeMark {
+  width: 7.12px;
+  height: 7.12px;
+  position: absolute;
+  right: 3rem;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 64, 165, 1) 0%,
+    rgba(225, 76, 209, 1) 100%
+  );
+  border-radius: 50%;
+  opacity: 0.8;
+  box-shadow: 0 0 24px 0 rgba(224, 16, 102, 1);
+}

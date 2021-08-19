@@ -1,0 +1,33 @@
+.wrapper {
+  width: 100vh;
+  color: white;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.screens {
+  display: flex;
+  height: 22.5rem;
+  margin: auto;
+  width: fit-content;
+}
+
+.original {
+  margin-right: 0.5rem;
+}
+
+.image {
+  max-height: 100%;
+}
+
+.controller {
+  width: 50%;
+  margin: auto;
+  position: relative;
+}
+
+.progress {
+  width: 50%;
+  margin: auto;
+  height: 22.5rem;
+}

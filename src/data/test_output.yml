@@ -1,0 +1,39 @@
+# Summarizes the test results.
+test_results:
+  # Number of sequences in the dataset.
+  num_sequences: 500
+  # Average metric in the original sequences.
+  metric_original: 0.95
+  # Average metric in the modified sequences.
+  metric_modified: 0.71
+  # Test description.
+  description: This test passes if performance drops by less than 0.05.
+  # Boolean indicating whether the test passes.
+  test_passes: False
+# Individual sequence instances.
+sequences:
+  - sequence:
+      # The sequences live in image_sequences/Brightness_original_* and
+      # image_sequences/Brightness_modified_* respectively for the original
+      # and modified sequences.
+      prefix: Brightness
+      # Metric on this individual original sequence.
+      metric_original: 0.85
+      # Metric on this individual modified sequence.
+      metric_modified: 0.83
+  - sequence:
+      prefix: Contrast
+      metric_original: 0.91
+      metric_modified: 0.76
+  - sequence:
+      prefix: MotionBlur
+      metric_original: 0.89
+      metric_modified: 0.56
+  - sequence:
+      prefix: Glare
+      metric_original: 0.9
+      metric_modified: 0.65
+  - sequence:
+      prefix: Rain
+      metric_original: 0.8
+      metric_modified: 0.71

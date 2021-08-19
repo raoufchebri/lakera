@@ -1,0 +1,22 @@
+.controller {
+  padding: 2rem;
+  justify-content: center;
+  display: flex;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.backward {
+  margin-right: 4rem;
+}
+.play {
+  margin-right: 4rem;
+}
+.forward {
+  width: 1.5rem;
+  height: 1.5rem;
+}
